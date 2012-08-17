@@ -3,7 +3,7 @@
 	<modules>
 		<Dzinehub_Partsfinder>
 			<version>1.0.0</version>
-		</Dzinehub_partsfinder>
+		</Dzinehub_Partsfinder>
 	</modules>
 	<global>
 		<helpers>
@@ -21,7 +21,7 @@
 				<entities>
 					<parts>
 						<table>dz_partsfinder</table>
-					<parts>
+					</parts>
 				</entities>
 			</partsfinder_mysql4>
 		</models>

@@ -44,15 +44,15 @@
 			</partsfinder_write>
 		</resources>
 		<events>
-			<catalog_product_before_save>
+			<catalog_product_save_before>
 				<observers>
 					<partsfinder>
 						<type>model</type>
-						<class>parts/obeserver</class>
+						<class>partsfinder/observer</class>
 						<method>catalogProductSaveBefore</method>
 					</partsfinder>
 				</observers>
-			</catalog_product_before_save>
+			</catalog_product_save_before>
 		</events>
 	</global>
 </config>

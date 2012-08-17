@@ -26,6 +26,12 @@
 			</partsfinder_mysql4>
 		</models>
 		<resources>
+			<partsfinder_setup>
+				<setup>
+					<module>Dzinehub_Partsfinder</module>
+					<class>Mage_Core_Model_Resource_Setup</class>
+				</setup>
+			</partsfinder_setup>
 			<partsfinder_read>
 				<connection>
 					<use>core_read</use>

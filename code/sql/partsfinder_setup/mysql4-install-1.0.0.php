@@ -1,18 +1,17 @@
 <?php
 
-
 $installer = $this;
 
 $installer->startSetup();
 
-$installer-run("
+$installer->run("
 	CREATE TABLE IF NOT EXISTS `{$installer->getTable('partsfinder/parts')}`
 	(
-		`id` small_init(6) NOT_NULL AUTOINCREMENT,
+		`id` smallint(6) NOT NULL AUTO_INCREMENT,
 		`make` varchar(255) NULL,
-		`model` MEDIUMTEXT NULL,
-		`year` MEDIUMTEXT NULL,
-		PRIMARY_KEY(`id`)
+		`model` TEXT NULL,
+		`year` TEXT NULL,
+		PRIMARY KEY (`id`)
 	);
 ");
 

@@ -43,5 +43,16 @@
 				</connection>
 			</partsfinder_write>
 		</resources>
+		<events>
+			<catalog_product_before_save>
+				<observers>
+					<partsfinder>
+						<type>model</type>
+						<class>parts/obesrver</class>
+						<method>catalogProductSaveBefore</method>
+					</partsfinder>
+				</observers>
+			</catalog_product_before_save>
+		</events>
 	</global>
 </config>

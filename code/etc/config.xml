@@ -43,6 +43,8 @@
 				</connection>
 			</partsfinder_write>
 		</resources>
+	</global>
+	<adminhtml>
 		<events>
 			<catalog_product_save_before>
 				<observers>
@@ -54,5 +56,5 @@
 				</observers>
 			</catalog_product_save_before>
 		</events>
-	</global>
+	</adminhtml>
 </config>

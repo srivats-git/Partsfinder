@@ -48,7 +48,7 @@
 				<observers>
 					<partsfinder>
 						<type>model</type>
-						<class>parts/obesrver</class>
+						<class>parts/obeserver</class>
 						<method>catalogProductSaveBefore</method>
 					</partsfinder>
 				</observers>
